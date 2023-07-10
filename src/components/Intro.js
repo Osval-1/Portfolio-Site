@@ -15,6 +15,7 @@ const Intro = () => {
         <p>facebook</p>
         <p>twitter</p>
         <p>linkedin</p>
+        <p>github</p>
     </div>)
 }
 
