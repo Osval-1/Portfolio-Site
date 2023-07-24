@@ -3,7 +3,13 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='nav-container'>
-        Header
+        <p>Logo</p>
+        <ul>
+        <p>Home</p>
+        <p>Works</p>
+        <p>About</p>
+        </ul>
+
         </div>
   )
 }

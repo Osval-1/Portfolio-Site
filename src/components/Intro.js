@@ -1,5 +1,7 @@
 import React from 'react'
 import image from '../assets/Pfp.jpg'
+import {AiFillFacebook,AiFillLinkedin,AiFillGithub} from 'react-icons/ai'
+
 
 const Intro = () => {
     return (
@@ -12,10 +14,9 @@ const Intro = () => {
         <img src={image}
             className='profile-picture'
             alt="profile-pic"/>
-        <p>facebook</p>
-        <p>twitter</p>
-        <p>linkedin</p>
-        <p>github</p>
+        <AiFillFacebook/>
+        <AiFillGithub/>
+        <AiFillLinkedin/>
     </div>)
 }
 

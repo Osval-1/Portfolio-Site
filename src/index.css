@@ -32,11 +32,19 @@ code {
   background-color: rgb(12, 11, 11);
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   height: 10vh;
   font-size: 2rem; 
   font-weight: 800;
+  padding: 0 4rem;
+}
+.nav-container ul{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: normal;
 }
 .profile{
   padding: 10vw;
@@ -48,4 +56,10 @@ code {
   width:30%;
   border-radius: 50%;
   
+}
+@media screen and (max-width:798px) { 
+  .profile{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
